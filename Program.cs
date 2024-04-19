@@ -54,7 +54,7 @@ namespace MyApp
                                 var otmData = JObject.Parse(otmResponseBody);
                                 var features = otmData["features"];
 
-                                Console.WriteLine("Atrakcje: ");;
+                                Console.WriteLine("Atrakcje??: ");;
                            
                                 foreach (var feature in features)
                                 {
